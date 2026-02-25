@@ -1,8 +1,8 @@
-import Landing from "./pages/Landing";
+import { Login } from "./pages/login/Login";
 function App() {
   return (
     <>
-      <Landing />
+      <Login />
     </>
   );
 }
