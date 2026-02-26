@@ -1,4 +1,15 @@
 @import "tailwindcss";
+<<<<<<< HEAD
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+=======
 
 @theme {
   --color-primary: #74BF44;
@@ -8,3 +19,4 @@ input::-ms-reveal,
 input::-ms-clear {
   display: none;
 }
+>>>>>>> 0ffcf58b72a0b7ad9ed45c92d85b12846ea3d4db
