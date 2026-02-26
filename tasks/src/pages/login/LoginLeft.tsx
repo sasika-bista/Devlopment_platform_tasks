@@ -1,5 +1,7 @@
 import microsoftAuthenticator from "../../assets/microsoft-authenticator.png";
-import { PasswordInput } from "../layouts/PasswordLayout";
+import { EmailLayout } from "../layouts/EmailLayout";
+import { PasswordLayout } from "../layouts/PasswordLayout";
+import { Link } from "react-router-dom";
 
 export const LoginLeft = () => {
   return (
@@ -8,18 +10,8 @@ export const LoginLeft = () => {
         <h1 className="text-[50px] font-semibold">Welcome back!</h1>
       </div>
       <form className="flex flex-col items-start gap-4 mb-4">
-        <div className="flex flex-col gap-1 w-full">
-          <label className="text-m font-bold">
-            Email <span className="text-red-500">*</span>
-          </label>
-          <input
-            type="email"
-            placeholder="Enter your mail address"
-            className="w-full border border-gray-300 rounded-2xl px-5 py-4 bg-gray-50 outline-none focus:border-primary transition-colors"
-            name="email"
-          />
-        </div>
-        <PasswordInput />
+        <EmailLayout />
+        <PasswordLayout />
         <div className="flex flex-row justify-between w-full">
           <label className="flex items-center cursor-pointer group">
             <div className="relative">
@@ -73,7 +65,10 @@ export const LoginLeft = () => {
       </button>
       <div className="text-center mt-3 font-semibold">
         <p>
-          Don't have an account? <span className="text-primary">Sign Up</span>
+          Don't have an account?{" "}
+          <Link to="/register" className="text-primary">
+            Sign Up
+          </Link>
         </p>
       </div>
     </div>
