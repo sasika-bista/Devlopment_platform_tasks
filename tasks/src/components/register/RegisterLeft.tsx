@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { InputLayout } from "../layouts/InputLayout";
-import { EmailLayout } from "../layouts/EmailLayout";
-import { PasswordLayout } from "../layouts/PasswordLayout";
+import { InputLayout } from "../../layouts/InputLayout";
+import { EmailLayout } from "../../layouts/EmailLayout";
+import { PasswordLayout } from "../../layouts/PasswordLayout";
 
 export const RegisterLeft = () => {
   return (

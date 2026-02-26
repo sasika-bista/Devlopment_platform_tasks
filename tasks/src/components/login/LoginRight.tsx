@@ -1,4 +1,4 @@
-import loginIllustration from "../../assets/login-illustration.png";
+import loginIllustration from "../../assets/loginPage/login-illustration.png";
 
 export const LoginRight = () => {
   return (

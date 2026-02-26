@@ -1,5 +1,7 @@
-import React from "react";
-import hckCoreLogo from "../assets/hck_core_logo.svg";
+import hckCoreLogo from "../assets/landingPage/hck_core_logo.svg";
+import arrow from "../assets/landingPage/Arrow.svg";
+import heroImg from "../assets/landingPage/heroImg.svg";
+import handShake from "../assets/landingPage/handshake.svg";
 function Landing() {
   return (
     <div className="w-screen h-screen">
