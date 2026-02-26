@@ -3,10 +3,7 @@ interface InputLayoutProps extends React.InputHTMLAttributes<HTMLInputElement> {
   label: string;
 }
 
-export const InputLayout: React.FC<InputLayoutProps> = ({
-  label,
-  ...inputProps
-}) => {
+export const InputLayout = ({ label, ...inputProps }: InputLayoutProps) => {
   return (
     <div className="flex flex-col gap-1 w-full">
       <label className="text-m font-bold">

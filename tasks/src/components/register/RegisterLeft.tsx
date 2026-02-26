@@ -5,7 +5,7 @@ import { PasswordLayout } from "../../layouts/PasswordLayout";
 
 export const RegisterLeft = () => {
   return (
-    <div className="flex flex-col w-100 h-full">
+    <div className="flex flex-col w-105 h-full">
       <div className="mb-5">
         <h1 className="text-[40px] font-semibold">Create your account</h1>
       </div>

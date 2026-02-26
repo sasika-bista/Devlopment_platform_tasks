@@ -6,8 +6,9 @@ export const Register = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-row justify-between h-full py-16 px-50 bg-gray-50 ">
+      <div className="flex flex-row justify-between h-full py-16 pl-50 pr-30 bg-gray-50 ">
         <RegisterLeft />
+
         <RegisterRight />
       </div>
     </>
