@@ -44,7 +44,7 @@ export const LoginLeft = () => {
           </div>
         </div>
 
-        <button className="w-full h-15 bg-primary rounded-2xl text-white text-[20px] font-semibold cursor-pointer hover:brightness-95">
+        <button className="w-full h-15 bg-primary rounded-2xl text-white text-[20px] font-semibold cursor-pointer hover:brightness-95 mt-3">
           Login
         </button>
       </form>

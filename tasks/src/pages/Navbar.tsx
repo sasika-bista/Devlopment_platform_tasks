@@ -6,7 +6,9 @@ export const Navbar = () => {
     <>
       <div className="h-21 border-b-[0.7px] border-[#6868681d] flex items-center justify-between py-4 px-20">
         <div>
-          <img className="w-18 h-14" src={hck_logo} alt="hck_logo" />
+          <Link to="/">
+            <img className="w-18 h-14" src={hck_logo} alt="hck_logo" />
+          </Link>
         </div>
         <div>
           <Link
