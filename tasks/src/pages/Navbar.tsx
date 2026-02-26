@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import hck_logo from "../assets/hck_core_logo.svg";
+import hck_logo from "../assets/landingPage/hck_core_logo.svg";
 
 export const Navbar = () => {
   return (

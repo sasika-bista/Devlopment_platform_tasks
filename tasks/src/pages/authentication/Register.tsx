@@ -1,6 +1,6 @@
 import { Navbar } from "../Navbar";
-import { RegisterLeft } from "./RegisterLeft";
-import { RegisterRight } from "./RegisterRight";
+import { RegisterLeft } from "../../components/register/RegisterLeft";
+import { RegisterRight } from "../../components/register/RegisterRight";
 
 export const Register = () => {
   return (

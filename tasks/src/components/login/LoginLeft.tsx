@@ -1,6 +1,6 @@
-import microsoftAuthenticator from "../../assets/microsoft-authenticator.png";
-import { EmailLayout } from "../layouts/EmailLayout";
-import { PasswordLayout } from "../layouts/PasswordLayout";
+import microsoftAuthenticator from "../../assets/loginPage/microsoft-authenticator.png";
+import { EmailLayout } from "../../layouts/EmailLayout";
+import { PasswordLayout } from "../../layouts/PasswordLayout";
 import { Link } from "react-router-dom";
 
 export const LoginLeft = () => {

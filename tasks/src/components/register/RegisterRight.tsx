@@ -1,4 +1,4 @@
-import signUp from "../../assets/sign-up.png";
+import signUp from "../../assets/registerPage/sign-up.png";
 
 export const RegisterRight = () => {
   return (

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import eyesOpen from "../../assets/eyes-open.png";
-import eyesClosed from "../../assets/eyes-closed.png";
+import eyesOpen from "../assets/passwordPhotos/eyes-open.png";
+import eyesClosed from "../assets/passwordPhotos/eyes-closed.png";
 
 interface PasswordLayoutProps {
   label?: string;
