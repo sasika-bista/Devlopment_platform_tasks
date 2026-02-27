@@ -1,12 +1,12 @@
-import { Navbar } from "../Navbar";
+import { NavbarForLogin } from "../NavbarForLogin";
 import { LoginLeft } from "../../components/login/LoginLeft";
 import { LoginRight } from "../../components/login/LoginRight";
 
 export const Login = () => {
   return (
     <>
-      <Navbar />
-      <div className="flex flex-row justify-between h-screen py-16 px-50 bg-gray-50">
+      <NavbarForLogin />
+      <div className="flex flex-row justify-between h-full py-17 px-55 pl-60.75 pr-30 bg-gray-50 ">
         <LoginLeft />
         <LoginRight />
       </div>

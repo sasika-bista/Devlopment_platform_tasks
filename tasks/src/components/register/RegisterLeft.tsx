@@ -1,28 +1,28 @@
 import { Link } from "react-router-dom";
-import { InputLayout } from "../../layouts/InputLayout";
+import { InputLayoutRegister } from "../../layouts/InputLayoutRegister";
 import { EmailLayout } from "../../layouts/EmailLayout";
 import { PasswordLayout } from "../../layouts/PasswordLayout";
 
 export const RegisterLeft = () => {
   return (
     <div className="flex flex-col w-105 h-full">
-      <div className="mb-5">
-        <h1 className="text-[40px] font-semibold">Create your account</h1>
+      <div className="mb-6">
+        <h1 className="text-[40px] font-semibold">Create your Account</h1>
       </div>
-      <form className="flex flex-col items-start gap-4 mb-4">
-        <InputLayout
+      <form className="flex flex-col items-start gap-3 mb-4">
+        <InputLayoutRegister
           label="Full Name"
           type="text"
           placeholder="Full name"
           name="fullname"
         />
-        <InputLayout
+        <InputLayoutRegister
           label="Phone Number"
           type="tel"
           placeholder="Phone Number"
           name="fullname"
         />
-        <EmailLayout />
+        <EmailLayout inputLayout={InputLayoutRegister} />
         <PasswordLayout />
         <PasswordLayout label="Confirm Password" />
         <div className="flex justify-center items-center gap-3">

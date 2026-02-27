@@ -1,22 +1,42 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import hck_logo from "../assets/landingPage/hck_core_logo.svg";
 
+interface NavLinkProps {
+  isActive: boolean;
+}
+
 export const Navbar = () => {
+  const navbarActive = ({ isActive }: NavLinkProps) => {
+    return `text-[19px] font-medium cursor-pointer ${isActive ? "text-primary" : "text-black"}`;
+  };
   return (
     <>
-      <div className="h-21 border-b-[0.7px] border-[#6868681d] flex items-center justify-between py-4 px-20">
+      <div className="border-b-[0.7px] border-[#6868681d] flex items-center justify-between py-2.5 px-23.75 pr-24">
         <div>
-          <Link to="/">
-            <img className="w-18 h-14" src={hck_logo} alt="hck_logo" />
-          </Link>
+          <NavLink to="/">
+            <img
+              className="w-16.75 h-18 pt-1.25"
+              src={hck_logo}
+              alt="hck_logo"
+            />
+          </NavLink>
         </div>
-        <div>
-          <Link
-            to="/login"
-            className="bg-primary w-32 h-[44px] rounded-lg flex justify-center items-center text-white text-[18px] font-semibold cursor-pointer"
-          >
-            Login
-          </Link>
+        <div className="flex gap-12.75 justify-center items-center">
+          <NavLink to="/home" end className={navbarActive}>
+            Home
+          </NavLink>
+
+          <NavLink to="/extra-learning" className={navbarActive}>
+            Extra Learning
+          </NavLink>
+
+          <NavLink to="/submit-resource" className={navbarActive}>
+            Submit Resource
+          </NavLink>
+
+          <NavLink to="/profile" className={navbarActive}>
+            Profile
+          </NavLink>
         </div>
       </div>
     </>

@@ -4,21 +4,29 @@ import eyesClosed from "../assets/passwordPhotos/eyes-closed.png";
 
 interface PasswordLayoutProps {
   label?: string;
+  style1?: string;
+  style2?: string;
 }
 
-export const PasswordLayout = ({ label = "Password" }: PasswordLayoutProps) => {
+export const PasswordLayout = ({
+  label = "Password",
+  style1,
+  style2,
+}: PasswordLayoutProps) => {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
     <div className="flex flex-col gap-1 w-full">
-      <label className="text-m font-bold">
+      <label className="text-[16px] font-semibold">
         {label} <span className="text-red-500">*</span>
       </label>
-      <div className="flex items-center border border-gray-300 rounded-2xl px-4 focus-within:border-primary transition-colors">
+      <div
+        className={`w-[85%] flex items-center border border-gray-500 rounded-2xl px-4 focus-within:border-primary transition-colors ${style1}`}
+      >
         <input
           type={showPassword ? "text" : "password"}
           placeholder="Enter your password"
-          className="w-full py-4 outline-none bg-transparent"
+          className={`w-full py-3 outline-none bg-transparent ${style2}`}
           name="password"
           required
         />

@@ -1,11 +1,11 @@
 import arrow from "../assets/landingPage/Arrow.svg";
 import heroImg from "../assets/landingPage/heroImg.svg";
 import handShake from "../assets/landingPage/handshake.svg";
-import { Navbar } from "./Navbar";
+import { NavbarForLogin } from "./NavbarForLogin";
 function Landing() {
   return (
     <>
-      <Navbar />
+      <NavbarForLogin />
       <div className="w-screen h-screen">
         {/* nav bar */}
         {/* <header className="border-b border-[#68686833] pl-27.5 pr-20 pt-1 pb-5"> */}

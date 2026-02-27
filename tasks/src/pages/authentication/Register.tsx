@@ -1,12 +1,12 @@
-import { Navbar } from "../Navbar";
+import { NavbarForLogin } from "../NavbarForLogin";
 import { RegisterLeft } from "../../components/register/RegisterLeft";
 import { RegisterRight } from "../../components/register/RegisterRight";
 
 export const Register = () => {
   return (
     <>
-      <Navbar />
-      <div className="flex flex-row justify-between h-full py-16 pl-50 pr-30 bg-gray-50 ">
+      <NavbarForLogin />
+      <div className="flex flex-row justify-between h-full py-9 pl-56.5 pr-30 bg-gray-50 ">
         <RegisterLeft />
 
         <RegisterRight />
