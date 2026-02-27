@@ -1,19 +1,31 @@
 @import "tailwindcss";
+<<<<<<< Updated upstream
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@0,200..1000;1,200..1000&display=swap");
+=======
+>>>>>>> Stashed changes
 
-* {
-  box-sizing: border-box;
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+  }
 }
 
+<<<<<<< Updated upstream
 body {
   font-family: "Inter", sans-serif;
 }
 
+=======
+>>>>>>> Stashed changes
 @theme {
-  --color-primary: #74BF44;
+  --color-primary: #74bf44;
 }
 
 input::-ms-reveal,
 input::-ms-clear {
   display: none;
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
