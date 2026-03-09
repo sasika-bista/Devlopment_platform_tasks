@@ -1,11 +1,12 @@
-import { HomePageCard } from "../layouts/homePageCard";
 import { Navbar } from "./Navbar";
+import { LevelCardDisplay } from "../components/home/LevelCardDisplay";
+import { LevelCardElDisplay } from "../components/home/LevelCardElDisplay";
 
 export const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gray-50 h-screen px-24.25">
+      <div className="bg-gray-50 h-full px-24.25 mb-10">
         <div className="flex flex-col justify-center items-center pt-12.25">
           <h1 className="text-[38.5px] tracking-wider font-extralight">
             Welcome to{" "}
@@ -21,14 +22,14 @@ export const Home = () => {
           <h2 className="text-primary font-medium text-[22.5px] tracking-wide mb-6.25 ml-1">
             Level 4
           </h2>
-          <div className="grid grid-cols-3 gap-7">
-            <HomePageCard />
-            <HomePageCard />
-            <HomePageCard />
-            <HomePageCard />
-            <HomePageCard />
-            <HomePageCard />
-          </div>
+          <LevelCardDisplay />
+        </div>
+        <div className="mt-10">
+          <h2 className="text-primary font-medium text-[23px] tracking-wide mb-3 ml-1">
+            Extra Learnings
+          </h2>
+          <p className="flex justify-end text-[#1877F2] mr-1">See More</p>
+          <LevelCardElDisplay />
         </div>
       </div>
     </>

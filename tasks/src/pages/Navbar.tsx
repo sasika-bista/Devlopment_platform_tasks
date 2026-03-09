@@ -22,7 +22,7 @@ export const Navbar = () => {
           </NavLink>
         </div>
         <div className="flex gap-12.75 justify-center items-center">
-          <NavLink to="/home" end className={navbarActive}>
+          <NavLink to="/home" className={navbarActive}>
             Home
           </NavLink>
 
