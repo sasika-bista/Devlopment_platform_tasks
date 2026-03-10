@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gray-50 h-full px-24.25 mb-10">
+      <div className="bg-gray-50 h-full px-24.25 mb-10 pt-23">
         <div className="flex flex-col justify-center items-center pt-12.25">
           <h1 className="text-[38.5px] tracking-wider font-extralight">
             Welcome to{" "}

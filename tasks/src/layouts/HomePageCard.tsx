@@ -32,7 +32,7 @@ export const LevelCard = ({
             Level 4
           </button>
         </div>
-        <div className="flex items-start gap-6">
+        <div className="flex items-start gap-6 h-16">
           <img src={htmlTag} alt="html-tag" className="h-11.5 w-11.75 mt-1" />
           <h1 className="text-[21.25px] font-medium tracking-wide">{title}</h1>
         </div>
