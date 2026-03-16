@@ -25,6 +25,7 @@ import utube from "../assets/landingPage/ContactUs/utube.svg";
 
 // functions
 import { NavbarForLogin } from "./NavbarForLogin";
+import { Link } from "react-router-dom";
 function Landing() {
   return (
     <>
@@ -49,9 +50,12 @@ function Landing() {
                   <br />
                   knowledge base that enhances learning for everyone. <br />
                 </div>
-                <button className="px-6 py-2 text-white  text-[14px] font-medium mt-1 bg-[#74BF44CC] hover:bg-[#A4C93A]  flex flex-row gap-2 w-fit rounded-[5.5px]">
+                <Link
+                  to="/register"
+                  className="px-6 py-2 text-white  text-[14px] font-medium mt-1 bg-[#74BF44CC] hover:bg-[#A4C93A]  flex flex-row gap-2 w-fit rounded-[5.5px]"
+                >
                   Get Started <img src={arrow} alt="arrow" width={"15px"} />
-                </button>
+                </Link>
               </div>
               <div className="pt-10  flex flex-row gap-26 border-t pl-1 border-[rgba(151,149,149,0.3)]">
                 <div className="Info text-primary font-bold text-[30px]">

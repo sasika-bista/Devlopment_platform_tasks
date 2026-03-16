@@ -11,7 +11,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <div className="flex items-center justify-between h-21 pt-2 px-23.75 pr-24 fixed top-0 left-0 w-full bg-white z-50">
+      <div className="flex items-center justify-between h-23 px-23.75 pr-24 fixed top-0 left-0 w-full bg-white z-50">
         <div>
           <NavLink to="/">
             <img

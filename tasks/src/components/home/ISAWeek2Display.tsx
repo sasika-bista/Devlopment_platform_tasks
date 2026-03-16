@@ -1,16 +1,24 @@
 import { ISACard } from "../../layouts/ISACard";
 
-export const ISAHero = () => {
+export const ISAWeek2Display = () => {
   return (
     <div className="h-full">
       <h1 className="font-medium text-[29.75px] leading-none pt-1 ml-1">
-        Week 1 - HTML & CSS Fundamentals
+        Week 2 - Advanced CSS & JavaScript
       </h1>
       <div className="flex flex-col gap-4">
         <ISACard
-          title="Introduction to HTML and CSS"
+          title="CSS Grid and Flexbox"
           teacher="Bishal Khadka"
           post="Module Leader"
+          description1="Master modern CSS layout techniques with Grid and Flexbox. Learn how to create responsive layouts and understand when to use each"
+          description2="layout method"
+          files={["CSSGridGuide.pdf", "flexbox_ex.docx"]}
+        />
+        <ISACard
+          title="Lists and Tables in HTML - Beginners"
+          teacher="Lujana Bajracharya"
+          post="GTA"
           description1="A comprehensive guide to database design principles and
             normalization techniques. This resource covers the complete database
             design"
@@ -18,7 +26,7 @@ export const ISAHero = () => {
             entity-relationship modeling, functional dependencies, and all
             normal"
           description3="forms."
-          files={["HtmlTutorial.pdf", "HTMLtask.docx", "CSSBeginners.pdf"]}
+          files={["html_Lists.pdf", "tables_html.pdf"]}
         />
         <ISACard
           title="Lists and Tables in HTML - Beginners"

@@ -2,7 +2,7 @@ import { LevelCard } from "../../layouts/HomePageCard";
 
 export const LevelCardDisplay = () => {
   return (
-    <div className="grid grid-cols-3 gap-7 ">
+    <div className="grid grid-cols-3 gap-10">
       <LevelCard
         faculty="Computer Science"
         title="Internet Software Architecture"

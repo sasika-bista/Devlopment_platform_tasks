@@ -1,17 +1,17 @@
-import { Navbar } from "./Navbar";
-import { WeekBtn } from "../components/resources/WeekBtn";
-import { ISAHero } from "../components/home/ISAHero";
+import { Navbar } from "../Navbar";
+import { WeekBtn } from "../../components/resources/WeekBtn";
+import { ISAHero } from "../../components/home/ISAHero";
 
 export const ISA = () => {
   return (
     <>
       <Navbar />
       <div className="pl-23 pr-24 flex w-screen pt-9 bg-gray-50 ">
-        <div className="w-48.25 border-r border-black/20 fixed top-32.5">
+        <div className="w-48.25 border-r border-black/20 fixed top-32.25">
           <h1 className="text-2xl font-medium mb-4.5 pl-0.75">All Weeks</h1>
           <WeekBtn />
         </div>
-        <div className="w-6/7 pl-6.25 ml-48.5 pt-23">
+        <div className="w-6/7 pl-6 ml-48.5 pt-23">
           <ISAHero />
         </div>
       </div>

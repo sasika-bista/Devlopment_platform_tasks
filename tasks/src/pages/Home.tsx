@@ -6,8 +6,8 @@ export const Home = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gray-50 h-full px-24.25 mb-10 pt-23">
-        <div className="flex flex-col justify-center items-center pt-12.25">
+      <div className="bg-gray-50 h-full px-24.25 pr-27 mb-12 pt-23">
+        <div className="flex flex-col justify-center items-center pt-12.25 pl-1">
           <h1 className="text-[38.5px] tracking-wider font-extralight">
             Welcome to{" "}
             <span className="text-[42px] text-primary font-semibold">
@@ -28,7 +28,7 @@ export const Home = () => {
           <h2 className="text-primary font-medium text-[23px] tracking-wide mb-3 ml-1">
             Extra Learnings
           </h2>
-          <p className="flex justify-end text-[#1877F2] mr-1">See More</p>
+          <p className="flex justify-end text-[#1877F2]">See More</p>
           <LevelCardElDisplay />
         </div>
       </div>
