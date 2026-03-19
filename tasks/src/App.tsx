@@ -32,7 +32,7 @@ function App() {
           />
           <Route path="/extra-learning" element={<ExtraLearning />} />
           <Route path="/submit-resource" element={<SubmitResource />} />
-          <Route path="/Resources" element={<ResourcesLanding />} />
+          <Route path="/resources" element={<ResourcesLanding />} />
         </Routes>
       </BrowserRouter>
     </>
