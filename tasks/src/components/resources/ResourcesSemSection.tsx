@@ -1,6 +1,5 @@
 import { ResourcesSemLayout } from "../../layouts/ResourcesSemLayout";
 import searchImg from "../../assets/Resources/Landing/search.svg";
-import { useState } from "react";
 
 interface Props {
   searchRef?: React.RefObject<HTMLDivElement | null>;

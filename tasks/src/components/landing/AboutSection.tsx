@@ -1,4 +1,3 @@
-import React from "react";
 import card1img from "../../assets/landingPage/About1/card1Img.svg";
 import card2img from "../../assets/landingPage/About1/card2Img.svg";
 import card3img from "../../assets/landingPage/About1/card3Img.svg";

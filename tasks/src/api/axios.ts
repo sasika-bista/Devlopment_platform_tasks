@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:9898/api/v1/auth/",
+  baseURL: "https://devplat.heraldcollege.edu.np/hck-core-api/",
   withCredentials: true,
 });

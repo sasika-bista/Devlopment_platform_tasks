@@ -82,7 +82,10 @@ function ShareContent() {
         ))}
 
         {smallCardInfo.map((cards, index) => (
-          <div className="border-t-[0.1px] border-l-[0.1px] shadow-[#0000001A] shadow-md transition-transform duration-300 hover:-translate-y-2  border-[rgba(151,149,149,0.3)] flex flex-col justify-evenly items-center w-105 h-50 rounded-[19px] ">
+          <div
+            key={index}
+            className="border-t-[0.1px] border-l-[0.1px] shadow-[#0000001A] shadow-md transition-transform duration-300 hover:-translate-y-2  border-[rgba(151,149,149,0.3)] flex flex-col justify-evenly items-center w-105 h-50 rounded-[19px] "
+          >
             <img src={cards.image} alt="" width={"40px"} />
             <p className="title text-[30px] text-primary font-bold">
               {cards.title}

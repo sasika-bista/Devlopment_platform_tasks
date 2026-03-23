@@ -1,4 +1,4 @@
-import React, { type ChangeEvent } from "react";
+import React from "react";
 interface InputLayoutProps extends React.InputHTMLAttributes<HTMLInputElement> {
   label: string;
 }
