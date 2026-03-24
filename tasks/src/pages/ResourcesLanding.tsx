@@ -39,7 +39,7 @@ function ResourcesLanding() {
         </header>
 
         <div className="flex-1">
-          <ResourcesHero />
+          <ResourcesHero handleScrollToSearch={handleScrollToSearch} />
           <div className="px-38 mt-15.75">
             <h1 className="text-[32.25px] text-black/90 font-semibold tracking-tight flex gap-1.5 ml-0.5">
               <span>Recently</span>

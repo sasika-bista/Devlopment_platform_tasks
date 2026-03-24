@@ -5,7 +5,11 @@ import image4 from "../../assets/Resources/Landing/image4.svg";
 
 import { useEffect, useState } from "react";
 
-export const ResourcesHero = () => {
+interface Props {
+  handleScrollToSearch?: () => void;
+}
+
+export const ResourcesHero = ({ handleScrollToSearch }: Props) => {
   const images: string[] = [image1, image2, image3, image4];
   const [index, setIndex] = useState<number>(0);
   const [sliderIndex, setSliderIndex] = useState<number>(0);
@@ -86,7 +90,10 @@ export const ResourcesHero = () => {
           push your limits with extra materials provided by your module <br />
           leader/ tutors themselves.
         </p>
-        <button className="relative text-[12.5px] text-white mt-3.5 px-1 py-2.5 w-36 overflow-hidden rounded-full group cursor-pointer">
+        <button
+          className="relative text-[12.5px] text-white mt-3.5 px-1 py-2.5 w-36 overflow-hidden rounded-full group cursor-pointer"
+          onClick={handleScrollToSearch}
+        >
           <div className="absolute inset-0 border border-white rounded-full z-10 group-hover:border-primary transition-all duration-0 delay-100"></div>
 
           <span className="relative z-10">Find Your Resource</span>

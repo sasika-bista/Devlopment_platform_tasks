@@ -24,7 +24,7 @@ export const LoginLeft = () => {
       console.log(formData);
       const data = await loginUser(formData);
       console.log(data);
-      alert("Login successfull");
+      alert("Login successful");
     } catch (error: any) {
       console.error(error.response?.data?.message);
     }
